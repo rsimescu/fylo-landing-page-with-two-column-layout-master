@@ -1,0 +1,63 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+
+
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 50px 0px;
+    max-width: 100%;
+}
+
+.topLinks{
+    display: flex;
+    gap: 40px;
+}
+
+.containerAllFiles{
+    display: flex;
+    flex-direction:row ;
+    margin-top: 50px;
+}
+
+.allFilesText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.illustrationFiles{
+    width: 80%;
+}
+
+.enterEmail{
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+    padding-right: 50px;
+}
+
+.enterEmail input{
+    display: flex;
+    width: 67%;
+}
+
+
+.enterEmail button{
+    display: flex;
+    width: 30%;
+
+}
