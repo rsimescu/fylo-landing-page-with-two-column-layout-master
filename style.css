@@ -7,19 +7,40 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 0px 30px;
+    height: 100svh;
     box-sizing: border-box;
+    font-family: "Open Sans";
 }
 
 
+
+.raleway-fontHeadings {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+.open-sans-fontBody {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 .topContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 50px 0px;
+    padding: 50px 60px;
     max-width: 100%;
+    font-family: "Raleway";
+   
 }
 
 .topLinks{
@@ -31,12 +52,31 @@ body{
     display: flex;
     flex-direction:row ;
     margin-top: 50px;
+    padding: 0px 60px;
+    padding-bottom: 200px;
+    align-items: center;
+    gap:40px;
+}
+
+ h1{
+    font-family: "Raleway";
 }
 
 .allFilesText{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
+}
+
+.allFilesText h1{
+    font-size: 35px;
+}
+
+.allFilesText p{
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 585px;
 }
 
 .illustrationFiles{
@@ -53,11 +93,229 @@ body{
 .enterEmail input{
     display: flex;
     width: 67%;
+    padding: 14px;
 }
 
 
 .enterEmail button{
     display: flex;
     width: 30%;
+    justify-content: center;
+    align-items: center;
+    border-style: hidden;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
 
+.stayProductive{
+    background-color: hsl(240, 60%, 98%);
+    margin-top: -8px;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   gap: 40px;
+}
+
+.stayProductive h1{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-width: 568px;
+}
+
+.productive{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productive p{
+    font-size: 16px;
+}
+
+.topTestimonialCurve{
+    padding: 0;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 330px;
+    padding: 30px;
+    line-height: 25px;
+    gap: 10px;
+    box-shadow: 0 0 50px hsla(255, 255, 255, 255);
+
+}
+
+.kyleBurton{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.reverseQuotes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.kyleImage img{
+    border-radius: 20px;
+}
+
+.testimonialName{
+    font-weight: 900;
+    font-size: 13px;
+    margin-bottom:-8px ;
+}
+
+.testimonialPosition{
+    font-size: 11px;
+   
+}
+
+.earlyAccess{
+    padding: 100px 60px;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.enterMailBottom{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.enterMailBottom input{
+    display: flex;
+    width: 450px;
+    order: -1;
+    padding: 14px;
+}
+.enterMailBottom input::placeholder{
+    color: lightgrey;
+}
+
+
+.enterMailBottom button{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding: 14px;
+    color: white;
+    background-color:hsl(224, 93%, 58%);
+    border-style: hidden;
+    border-radius: 3px;
+}
+
+.earlySubtitle{
+    font-size: 18px;
+    max-width: 550px;
+    margin-top: 25px;
+}
+
+.stayProductiveIlu{
+    width: 600px;
+}
+
+
+#neverSubtitle{
+    max-width: 535px;
+}
+
+#securelySubtitle{
+    max-width: 535px;
+}
+
+.greenLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    padding: 7px;
+    width: 165px;
+    color:#3C9F8E ;
+    border-bottom:#3C9F8E solid 1px ;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #0A163A;
+    color: white;
+    padding: 80px 60px;
+}
+
+.logoImage{
+    filter:brightness(0%) invert(1);
+}
+
+.footerData{
+    display: flex;
+    flex-direction: row;
+    gap:200px;
+    margin-top:20px ;
+    color: #FFFFFFCC;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.phoneAndEmail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerColumns{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialMedia img{
+    border: solid white;
+    border-radius: 30px;
+    padding: 10px;
+    filter: brightness(0) invert(1);
+    width: 15px;
+    height: 15px;
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
