@@ -92,21 +92,22 @@ body{
 
 .enterEmail input{
     display: flex;
-    width: 67%;
+    width: 60%;
     padding: 14px;
+    border-style: solid;
 }
 
 
 .enterEmail button{
     display: flex;
-    width: 30%;
+    width: 37%;
     justify-content: center;
     align-items: center;
     border-style: hidden;
     background-color: hsl(224, 93%, 58%);
     color: white;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 15px;
     border-radius: 5px;
     
 }
@@ -151,8 +152,12 @@ body{
     padding: 30px;
     line-height: 25px;
     gap: 10px;
-    box-shadow: 0 0 50px hsla(255, 255, 255, 255);
+    box-shadow: 0 0 30px hsla(0, 0%, 0%, 0.1);
 
+}
+
+.enterEmail button{
+    box-shadow: 0 0 30px hsla(0, 0%, 0%, 0.1);
 }
 
 .kyleBurton{
