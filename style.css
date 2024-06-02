@@ -409,6 +409,10 @@ footer{
         gap: 15px;
     }
       
+    .enterEmail{
+        padding: 0;
+    }
+
    .enterEmail input{
     display: flex;
     width: 90%;
