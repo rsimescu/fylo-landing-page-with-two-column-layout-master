@@ -1,6 +1,8 @@
 *   {
     margin: 0;
     padding: 0;
+    
+
 }
 
 body{
@@ -324,3 +326,173 @@ footer{
     flex-direction: column;
     gap: 15px;
 }
+
+@media  screen and (max-width: 850px) {
+    
+    body{
+        max-width: 100%;
+    }
+    .topContainer img{
+        width: 70px;
+    }
+
+    .topContainer{
+        padding: 30px 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .features{
+        font-size: 15px;
+    }
+
+    .topLinks{
+        gap: 10px;
+    }
+
+    .containerAllFiles{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .allFilesText h1{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #paragraph{
+        font-size: 15px;
+    }
+    
+    .illustrationFiles{
+        order: -1;
+    }
+
+    .stayProductive{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .stayProductive h1{
+        font-size: 15px;
+        min-width: 0px;
+    }
+    .allFilesText p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .stayProductiveIlu{
+        width: 50px;
+    }
+
+    .earlyAccess{
+        flex-direction: column;
+    }
+
+    .testimonial{
+        width: 300px;
+    }
+
+    .footerData{
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .enterEmail{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 15px;
+    }
+      
+   .enterEmail input{
+    display: flex;
+    width: 90%;
+   }
+
+   .enterEmail button{
+    width: 100%;
+    padding: 14px;
+    
+   }
+
+   .productiveH1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+   }
+
+   #productiveH1{
+    font-size: 19px;
+   }
+
+   .stayProductiveText{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+   }
+
+   .stayProductiveIlu img{
+    width: 100%;
+   }
+
+   .stayProductiveIlu{
+    width: 380px;
+   }
+
+   .greenLink{
+    display: flex;
+    justify-content: center;
+   }
+
+   .greenLinkPositioning{
+    display: flex;
+    justify-content: center;
+   }
+
+   .earlyAccessText{
+    text-align: center;
+   }
+
+   .earlyAccessText h1{
+    font-size: 22px;
+    font-weight: 600;
+   }
+
+   .earlySubtitle{
+    max-width: 340px;
+    font-size: 15px;
+    color: #FFFFFFCC;
+   }
+
+   .earlyAccess{
+    gap: 35px;
+   }
+
+   .enterMailBottom{
+    align-items: center;
+   }
+
+   .enterMailBottom input{
+    width: 70%;
+   }
+
+   .enterMailBottom button{
+    display: flex;
+    width: 80%;
+    font-size: 12px;
+   }
+
+   .footerColumns{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    gap: 50px;
+   }
+}
+
