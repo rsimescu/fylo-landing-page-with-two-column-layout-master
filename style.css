@@ -337,7 +337,7 @@ footer{
     }
 
     .topContainer{
-        padding: 30px 60px;
+        padding: 30px 30px;
         display: flex;
         justify-content: space-between;
     }
@@ -353,7 +353,7 @@ footer{
     .containerAllFiles{
         display: flex;
         flex-direction: column;
-
+        padding: 30px;
     }
 
     .allFilesText h1{
@@ -435,6 +435,7 @@ footer{
     display: flex;
     flex-direction: column;
     order: 2;
+    padding: 50px 30px;
    }
 
    .stayProductiveIlu img{
@@ -486,6 +487,10 @@ footer{
     display: flex;
     width: 80%;
     font-size: 12px;
+   }
+
+   footer{
+    padding: 80px 30px;
    }
 
    .footerColumns{
